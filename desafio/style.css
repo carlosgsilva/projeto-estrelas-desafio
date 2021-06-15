@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151320;
+  height: 100vh;
+  display: grid;
+  place-items: center center;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://images.alphacoders.com/876/thumb-1920-876589.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5%;
+  width: 30%;
+  height: 10%;  
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  grid-gap: 40px;
+  justify-content: center;
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+
+.card {
+  width: 275px;
+  background-color: #1c1b29;
+  border: 2px solid #1c1b29;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+
+.card:hover {
+  border-color: #1aaf8f;
+  background-color: #1aaf8f;
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+img {
+  width: 100%;
+  display: flex;
+  border-radius: 20px 20px 0 0;
+}
+
+.name {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.name > h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2rem;
+}
