@@ -48,7 +48,7 @@ Para finalizar preciso mudar os personagens toda vez que recarregar a página, p
 # 🌟 Conclusão 
 
 Esse foi o desafio proposto como parte do processo de seleção da Zup para o programa estrelas fora da caixa. Um projeto incrível que eu fico honrado de poder estar participando.
-O resultado: https://desafio-carlosgsilva.vercel.app
+O resultado: https://vibrant-aryabhata-be3d79.netlify.app/
 
 
 
